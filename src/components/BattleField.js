@@ -31,7 +31,7 @@ export default (props) => {
           ))}
         </div>
       }
-      {hits === 20 || turn==shots &&
+      {(hits === 20 || turn===shots) &&
       <div className={`emptyBattleField ${screenMode === 'tablet' && 'centered'}`}>
             <div className='text-center'>
               <h1>Game over</h1>
