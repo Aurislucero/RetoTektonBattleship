@@ -2,8 +2,7 @@ import React from 'react';
 import Cell from "./Cell";
 import StartButton from "./StartButton";
 import '../styles/BattleField.css';
-
-export default (props) => {
+const BattleField = (props) => {
   let { battleField, hits, onCellClick, onClick, screenMode,turn,shots} = props;
   return (
     <div className='cardgame'>
@@ -42,3 +41,5 @@ export default (props) => {
     </div>
   );
 }
+
+export default BattleField

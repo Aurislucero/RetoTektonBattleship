@@ -3,7 +3,8 @@ import { Col, Row } from 'react-bootstrap';
 import Flotilla from './../components/Flotilla';
 import Scores from "./../components/Scores";
 import '../styles/BattleField.css'
-export default (props) => {
+
+const Stats = (props) => {
   const { flotilla, hits, shots ,turn } = props;
   return (
     <Col>
@@ -20,3 +21,5 @@ export default (props) => {
     </Col>
   )
 }
+
+export default Stats

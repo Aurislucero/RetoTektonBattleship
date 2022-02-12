@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default (props) => {
+const Scores = (props) => {
   const { hits, shots, turn } = props;
   return (
     <>
@@ -23,3 +23,5 @@ export default (props) => {
 
   )
 }
+
+export default Scores

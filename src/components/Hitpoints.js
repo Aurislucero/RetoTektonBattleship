@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/BattleField.css'
 
-export default (props) => {
+const Hitpoints = (props) => {
   const { hitPoints, hits } = props;
   let hitPointsCounter = [];
   let hitCounter = [];
@@ -21,3 +21,5 @@ export default (props) => {
     </span>
   )
 }
+
+export default Hitpoints
