@@ -1,0 +1,101 @@
+
+
+   
+   .firstCard{
+    width: 50%;
+    padding: 20px;
+    border-radius: 20px;
+   }
+   .board{
+        display: block; margin: auto;
+    }
+    .cell {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #eee;
+        background: #fefdfd;
+        box-sizing: border-box;
+        vertical-align: bottom;
+      }
+
+
+      .selected {
+        background-image: linear-gradient(135deg, #5efce8 10%, #736efe 100%);
+      }
+
+      .ship {
+        background-image: linear-gradient(135deg, #f05f57 10%, #360940 100%);
+      }
+      .sunk{
+        background-image: radial-gradient(circle, rgba(175,88,91,0.08449317226890751) 0%, rgba(148,103,182,0.5886948529411764) 0%);
+      }
+
+      .battleFieldPanel {
+        padding-top: 20px;
+        text-align: center;
+    }
+    .show-grid{
+        text-align: center;
+    }
+
+    .flotillaContainer {
+        overflow: auto;
+        width: auto;
+        max-height: 400px;
+    }
+    .shipItem{
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    .scoresPanel{
+        padding-right: 13px;
+        padding-left: 13px;
+    }
+    .scoreShots {
+      background-image: linear-gradient(135deg, #5efce8 10%, #736efe 100%);
+      width: 50%;
+      float: left;
+    }
+
+    .scoreHits {
+      background-image: linear-gradient(135deg, #f05f57 10%, #360940 100%);
+      width: 50%;
+      float: left;
+    }
+    
+    .shipIcon {
+      width: 70px;
+      height: auto;
+      padding: 5px;
+  }
+  .scoresPanel {
+    padding-top: 20px;
+    justify-content: center;
+    display: flex;
+}
+.cardgame{
+  text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.btngame{
+  background-color: #85b200;
+  border-color: #85b200;
+  border: 0;
+  padding: 20px;
+  border-radius: 20px;
+}
+    @media (max-width: 960px) {
+      .firstCard{
+        width: 90%;
+        padding: 20px;
+        border-radius: 20px;
+       }
+      .scoresPanel {
+        display: block;
+    }
+    }
+
+  

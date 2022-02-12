@@ -1,0 +1,17 @@
+.heading {
+    margin: auto;
+    text-align: center;
+    position: relative;
+    text-transform: uppercase;
+  }
+
+  .heading  h1 {
+    color: rgb(175,88,91);;
+    font-size: 38px;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+    padding-top: 0.1em;
+    padding-bottom: 0.7em;
+    text-shadow: 0.07em 0.07em 0 rgba(133, 178, 0, 0.1);
+    margin: auto;
+  }
