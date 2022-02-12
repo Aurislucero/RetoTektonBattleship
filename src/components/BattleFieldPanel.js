@@ -9,7 +9,6 @@ import { getBattleField, makeClone } from '../helpers/generateBattleField';
 import { getMaxHits } from '../helpers/getMaxHits';
 import { LogicContext } from '../context/LogicProvider';
 import { withRouter } from "react-router-dom";
-import { Router, Route, Link } from 'react-router'
 class BattleFieldPanel extends Component {
   static contextType = LogicContext
   constructor(props) {
